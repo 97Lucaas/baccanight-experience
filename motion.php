@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<object data="assets/img/vague.svg" width="100%" height="100"> </object>
+<?php include("patterns/wave.php"); ?>
 
     <div class="container centeredcont">
 
