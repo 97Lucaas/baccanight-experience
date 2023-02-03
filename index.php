@@ -20,7 +20,7 @@
             <div class="button-list">
 
                 <a href="" class="mainbutton">Jouer</a>
-                <a href="" class="button">Crédits</a>
+                <a href="credits.php" class="button">Crédits</a>
 
             </div>
 

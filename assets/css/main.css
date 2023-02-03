@@ -54,7 +54,7 @@ h1{
 }
 
 .mainbutton{
-    padding: 11px 15px 5px 15px;
+    padding: 10px 15px 5px 15px;
     background-color: #22223B;
     border-radius: 50px;
     border: 1px solid #22223B;
@@ -112,4 +112,12 @@ h1{
 .acccont img{
     display: block;
     margin: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.mt70{
+    margin-top:70px;
 }
