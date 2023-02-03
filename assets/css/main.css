@@ -38,6 +38,15 @@ body{
     width: 100%;
 }
 
+.centeredmodal{
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 58vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
 .mainroundimg{
     width: 100%;
     border-radius: 50%;
