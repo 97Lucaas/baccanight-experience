@@ -10,7 +10,106 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "CastleBegale";
+    src: url("../fonts/CastleBegale.ttf");
+}
+
 html{
     font-family: "Nexa";
     font-weight: lighter;
+}
+
+body{
+    margin:0;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.centeredcont{
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainroundimg{
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h1{
+    font-family: "CastleBegale";
+    font-size: 40px;
+    text-align: center;
+}
+
+.mainbutton{
+    padding: 11px 15px 5px 15px;
+    background-color: #22223B;
+    border-radius: 50px;
+    border: 1px solid #22223B;
+    color: white;
+    font-family: "Nexa";
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.mainbutton:hover{
+    padding: 10px 15px 5px 15px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #22223B;
+    color: #22223B;
+    font-family: "Nexa";
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.button{
+    padding: 10px 15px 5px 15px;
+    background-color: #4A4E69;
+    border-radius: 50px;
+    color: white;
+    font-family: "Nexa";
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.button-list{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    width: 100%;
+}
+
+.button-list a+a{
+    margin-top: 10px;
+}
+
+.acccont img{
+    display: block;
+    margin: auto;
 }

@@ -9,7 +9,25 @@
 </head>
 <body>
 
-    Lets go !
-    
+    <div class="container centeredcont">
+
+        <div class="acccont">
+
+            <img src="assets/img/fish.jpg" class="mainroundimg" alt="">
+            
+            <h1>Maman les p'tits tableaux</h1>
+
+            <div class="button-list">
+
+                <a href="" class="mainbutton">Jouer</a>
+                <a href="" class="button">Crédits</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
 </body>
 </html>
