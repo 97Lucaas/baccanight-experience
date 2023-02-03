@@ -52,6 +52,24 @@ h1{
     font-family: "CastleBegale";
     font-size: 40px;
     text-align: center;
+    margin:0;
+}
+
+.h1b{
+    font-family: "CastleBegale";
+    font-size: 40px;
+    text-align: center;
+    margin:0;
+}
+
+h2{
+    font-family: "CastleBegale";
+    font-size: 30px;
+    margin:0;
+}
+
+p{
+    margin:0;
 }
 
 .mainbutton{
@@ -104,6 +122,7 @@ h1{
     width: fit-content;
     align-items: center;
     width: 100%;
+    margin: 50px 0px;
 }
 
 .button-list a+a{
@@ -125,4 +144,97 @@ h1{
 
 .mtb70{
     margin:70px auto;
+}
+
+.input{
+    border: #22223B 1px solid;
+    border-radius: 50px;
+    padding: 10px 15px 5px 15px;
+    width: 25%;
+}
+
+#partitioned {
+    padding-left: 18px;
+    letter-spacing: 31px;
+    border: 0;
+    font-size: 61px;
+    background-image: linear-gradient(to left, black 68%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 71px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 65px;
+    width: 100%;
+    min-width: 220px;
+  }
+  
+  #divInner{
+    left: 0;
+    position: sticky;
+  }
+  
+  #divOuter{
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 30px;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bootsrap MODIFY */
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 30px 30px 30px 0px;
+}
+
+.panel-group {
+    margin: 30px 0px;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #4A4E69;
+    border-color: #4A4E69;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.panel-group {
+    margin-bottom: 20px;
+    font-family: "Nexa";
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 0px solid #dddddd;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.panel-title a {
+    text-decoration: none;
+}
+
+.panel-heading {
+    padding: 15px 15px 10px 15px;
+}
+
+.panel-title{
+    font-family: "CastleBegale";
 }
