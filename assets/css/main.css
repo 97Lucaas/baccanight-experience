@@ -52,6 +52,7 @@ body{
     width: 100%;
     border-radius: 50%;
     margin: 0 auto;
+    aspect-ratio : 1 / 1;
 }
 
 .flex{
@@ -193,7 +194,16 @@ p{
     outline: none;
 }
 
+.spin{
+    /* transition: transform .7s ease-in-out;*/
+    transition: 1.7s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    aspect-ratio: 1 / 1;
+}
 
+.spin:hover {
+    transform: rotate(1440deg); /* 360 */
+    aspect-ratio: 1 / 1;
+}
 
 
 
