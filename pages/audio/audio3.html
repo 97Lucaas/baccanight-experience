@@ -8,12 +8,72 @@
     <link rel="stylesheet" href="../../assets/css/main.css">
     <title>Maman, les p'tits tableaux !</title>
 
+    <script src="../../assets/js/end_dialog.js" defer></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="../../assets/js/boostrap/bootstrap.js" defer></script>
 </head>
 <body>
 
 <object data="../../assets/img/vague.svg" width="100%" height="100"> </object>
+
+
+
+
+
+
+<div class="modal fade centeredmodal" id="thanks" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div> -->
+      <div class="modal-body">
+        <h2>Bravo!</h2>
+        <p>Tu as sauvé le musée, nous te serons éternellement reconnaissants ! Cependant le mystère reste entier : les bateaux ont-ils des jambes ?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="mainbutton" onclick="bye()" data-dismiss="modal">Suivant</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+
+<div class="modal fade centeredmodal" id="bye" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div> -->
+      <div class="modal-body">
+        <h2>Laisse nous un avis !</h2>
+        <p>Si le jeu t’as plu, tu peux prendre le temps de nous laisser un avis en cliquant juste ici !</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="mainbutton" onclick="end()" data-dismiss="modal">Suivant</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="container ">
 
@@ -60,7 +120,7 @@
 
 
         <div class="button-list fix-btn">
-            <a href="../clues/" class="button">Suivant</a>
+            <a onclick="thanks()" class="button">Ok !</a>
         </div>
 
     </div>
