@@ -18,6 +18,8 @@
 html{
     font-family: "Nexa";
     font-weight: lighter;
+
+    font-size: 20px;
 }
 
 body{
@@ -77,6 +79,7 @@ h2{
     font-family: "CastleBegale";
     font-size: 30px;
     margin:0;
+    margin-bottom: 10px;
 }
 
 p{
@@ -219,7 +222,7 @@ p{
 }
 
 .fix-btn{
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .extrait{
@@ -231,6 +234,9 @@ p{
     width: 100%;
 }
 
+.panel-default > .reponse{
+    background-color: #22223B !important;
+}
 
 
 
@@ -291,4 +297,10 @@ a:hover, a:focus {
 
 .panel-title{
     font-family: "CastleBegale";
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 0px solid #e5e5e5;
 }
