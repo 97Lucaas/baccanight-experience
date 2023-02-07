@@ -43,7 +43,7 @@ body{
 .centeredmodal{
     /* Center vertically and horizontally */
     position: absolute;
-    top: 58vh;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -97,6 +97,7 @@ p{
     font-size: 30px;
     text-decoration: none;
     text-align: center;
+    
 
     transition: 0.3s;
 }
@@ -113,6 +114,7 @@ p{
     text-decoration: none;
     text-align: center;
 
+
     transition: 0.3s;
 }
 
@@ -126,6 +128,7 @@ p{
     font-size: 20px;
     text-decoration: none;
     text-align: center;
+    border: none;
 
     transition: 0.3s;
 }
