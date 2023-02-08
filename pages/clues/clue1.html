@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../assets/css/boostrap/bootstrap.css">
     <link rel="stylesheet" href="../../assets/css/main.css">
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery/jquery.js" defer></script>
     <script src="../../assets/js/codeverify1.js" defer></script>
     <script src="../../assets/js/start_dialog.js" defer></script>
     <script src="../../assets/js/boostrap/bootstrap.js" defer></script>
@@ -140,93 +140,88 @@
 
 
 
-
-    <div class="container">
-
-        <div class="acccont">
-            
-            <h2>C'est parti !</h2>
-            <p>Voici les éléments mis à ta disposition pour trouver le premier tableau :</p>
-
-
-
-          div.
+          <div class="wave-in first-section wave-section">
+            <object data="../../assets/img/vague.svg" class="wave" width="100%" height="80"> </object>
+            <div class="container">
+              <h2>C'est parti !</h2>
+              <p>Voici les éléments mis à ta disposition pour trouver le premier tableau :</p>
+            </div>
+          </div>
 
 
 
-
-
-
+          <div class="wave-in second-section wave-section">
+            <object data="../../assets/img/vague.svg" class="wave" width="100%" height="80"> </object>
+            <div class="container">
 
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        1. Écouter l’ambiance sonore
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                      
-                        <audio controls class="audiomedia extrait">
-                            <source src="../../assets/audio/soundtest.mp3" type="audio/mpeg">
-                          Your browser does not support the audio element.
-                        </audio>
-
-                    </div>
-                  </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      1. Écouter l’ambiance sonore
+                    </a>
+                  </h4>
                 </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        2. Extrait de l’image
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">
-                      
-                        <img src="../../assets/img/fish.jpg" onclick="ZoomImg()" alt="" class="zoom-img">
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    
+                      <audio controls class="audiomedia extrait">
+                          <source src="../../assets/audio/soundtest.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
 
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="reponse panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        3. Voir le nom du tableau
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="panel-body">
-                      Le nom du tableau !
-                    </div>
                   </div>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-              <h2>Tu penses avoir trouvé ?</h2>
-              <p>Entre le code à quatre chiffres du tableau :</p>
-
-              <div id="divOuter">
-                <div id="divInner">
-                    <input id="partitioned" type="text" maxlength="4" placeholder="CODE"/>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      2. Extrait de l’image
+                    </a>
+                  </h4>
                 </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    
+                      <img src="../../assets/img/fish.jpg" onclick="ZoomImg()" alt="" class="zoom-img">
+
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="reponse panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      3. Voir le nom du tableau
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Le nom du tableau !
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+          <div class="wave-in third-section wave-section">
+            <object data="../../assets/img/vague.svg" class="wave" width="100%" height="80"> </object>
+            <div class="container">
+
+            <h2>Tu penses avoir trouvé ?</h2>
+            <p>Entre le code à quatre chiffres du tableau :</p>
+
+            <div id="divOuter">
+              <div id="divInner">
+                  <input id="partitioned" type="text" maxlength="4" placeholder="CODE"/>
+              </div>
             </div>
 
             <div class="button-list">
@@ -234,11 +229,13 @@
                 <a class="button" onclick="Clicked()">Suivant</a>
 
             </div>
+          </div>
+
+          </div>
 
 
-        </div>
 
-    </div>
+
 
 </body>
 </html>
