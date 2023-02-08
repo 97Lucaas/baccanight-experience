@@ -51,9 +51,10 @@ body{
 }
 
 .mainroundimg{
-    width: 100%;
+    width: 75%;
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 20px;
     aspect-ratio : 1 / 1;
 }
 

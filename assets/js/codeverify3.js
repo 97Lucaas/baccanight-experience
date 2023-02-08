@@ -14,5 +14,5 @@ function Clicked(){
 }
 
 function Next(){
-    window.location.replace("../../pages/audio/audio3.html");
+    window.location.replace("../../pages/gifs/gif3.html");
 }
