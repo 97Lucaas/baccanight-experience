@@ -16,3 +16,9 @@ function Clicked(){
 function Next(){
     window.location.replace("../../pages/gifs/gif1.html");
 }
+
+function ZoomImg(){
+
+    $('#zoom-img').modal('show');
+
+}
