@@ -228,11 +228,23 @@ p{
 }
 
 .conservateur{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cont-img-conservateur{
     width: 100%;
+    display: flex;
 }
 
 .audiomedia{
     margin-top: 50px;
+    color:white;
+}
+
+.audiomedia h3{
+    margin: 0;
+    text-align: center;
 }
 
 .fix-btn{
