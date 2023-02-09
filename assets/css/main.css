@@ -344,7 +344,10 @@ a:hover, a:focus {
     border-color: #4A4E69 !important;
 }
 
+.wave-section.wave-in .panel.rep{
 
+    border-color: #E2D4B7;
+}
 
 
 /* VAGUES */
