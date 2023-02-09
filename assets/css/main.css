@@ -444,3 +444,8 @@ a:hover, a:focus {
 .panel-title a{
     padding: 15px 0 10px 0;
 }
+
+.modal-body a{
+    color: #22223B;
+    font-weight: bold;
+}
