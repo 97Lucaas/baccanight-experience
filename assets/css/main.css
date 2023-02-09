@@ -449,3 +449,15 @@ a:hover, a:focus {
     color: #22223B;
     font-weight: bold;
 }
+
+.panel-body p + p{
+    margin-top: 20px;
+}
+
+.aud-cont{
+    margin-top:50px;
+}
+
+.nar{
+    opacity: 0.8;
+}
