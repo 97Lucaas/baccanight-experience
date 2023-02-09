@@ -349,6 +349,10 @@ a:hover, a:focus {
     border-color: #E2D4B7;
 }
 
+.wave-section.wave-in .panel.rep .panel-collapse .panel-body{
+    color:#E2D4B7;
+}
+
 
 /* VAGUES */
 
