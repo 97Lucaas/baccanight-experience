@@ -7,14 +7,10 @@ function Clicked(){
     console.log(input.value);
 
     if(input.value == "8888"){
-        $('#good').modal('show');
+        window.location.replace("../../pages/gifs/gif2.html");
     }else{
         $('#bad').modal('show');
     }
-}
-
-function Next(){
-    window.location.replace("../../pages/gifs/gif2.html");
 }
 
 function ZoomImg(){

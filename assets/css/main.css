@@ -432,3 +432,11 @@ a:hover, a:focus {
 .wave-section.wave-in .wave{
     display: block;
 }
+
+.no-padding{
+    padding:0;
+}
+
+.full-dark-mode{
+    background-color: #22223B;
+}

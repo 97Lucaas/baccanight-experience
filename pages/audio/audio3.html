@@ -8,13 +8,31 @@
     <link rel="stylesheet" href="../../assets/css/main.css">
     <title>Maman, les p'tits tableaux !</title>
 
+    <script src="../../assets/js/audioshowmodalonload.js" defer></script>
     <script src="../../assets/js/end_dialog.js" defer></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="../../assets/js/boostrap/bootstrap.js" defer></script>
 </head>
-<body>
+<body class="full-dark-mode">
 
-<object data="../../assets/img/vague.svg" width="100%" height="100"> </object>
+
+  <div class="modal fade centeredmodal" id="good" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Modal title</h4>
+        </div> -->
+        <div class="modal-body">
+          <h2>Merci !</h2>
+          <p>Grâce à toi, tous les tableaux sont sauvés. Ecoute l’histoire de ce dernier tableau, pour t’assurer que rien n’a été dégradé.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button" data-dismiss="modal">Suivant</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
 
 
@@ -75,7 +93,7 @@
 
 
 
-    <div class="container ">
+    <div class="container centeredcont">
 
     <img src="../../assets/img/fish.jpg" alt="" class="conservateur">
 
@@ -88,7 +106,7 @@
 
 
 
-
+    <div class="wave-in wave-section no-padding">
 
 
 
@@ -122,6 +140,8 @@
         <div class="button-list fix-btn">
             <a onclick="thanks()" class="button">Ok !</a>
         </div>
+
+      </div>
 
     </div>
 
