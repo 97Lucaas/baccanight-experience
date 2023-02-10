@@ -232,6 +232,11 @@ p{
     padding: 34px 32px;
 }
 
+.modal-body.conserv {
+    position: relative;
+    padding: 20px 32px;
+}
+
 .fullimg-modal{
     padding: 34px 0px;
 }
@@ -520,4 +525,9 @@ a:hover, a:focus {
 
 .h1-bibli{
     margin-bottom: 50px;
+}
+
+.modal-body .conservateur{
+    width: 38%;
+    margin-bottom: 15px;
 }
