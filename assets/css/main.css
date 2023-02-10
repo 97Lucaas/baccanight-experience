@@ -63,7 +63,7 @@ body{
 
 .mainroundimg{
     width: 75%;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: 0 auto;
     margin-bottom: 20px;
     aspect-ratio : 1 / 1;
