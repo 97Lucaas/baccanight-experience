@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/fullscreenvideo.js" defer></script>
     <title>Maman, les p'tits tableaux !</title>
 </head>
 <body>
+
+    <video width="250" id="vid" autoplay class="removed"> <!-- controls -->
+        <source src="/assets/videos/MMI slander.mp4" type="video/mp4">
+    </video>
 
     <div class="container centeredcont">
 
@@ -19,7 +24,7 @@
 
             <div class="button-list">
 
-                <a href="pages/motion/motion_start.html" class="mainbutton">Jouer</a>
+                <a onclick="Video()" class="mainbutton">Jouer</a> <!-- href="pages/motion/motion_start.html" -->
                 <a href="credits.html" class="button">Crédits</a>
 
             </div>
