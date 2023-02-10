@@ -531,3 +531,7 @@ a:hover, a:focus {
     width: 38%;
     margin-bottom: 15px;
 }
+
+.removed{
+    display: none;
+}
