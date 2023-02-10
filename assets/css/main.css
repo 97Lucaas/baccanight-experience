@@ -37,6 +37,11 @@ body{
     margin: 0 auto;
 }
 
+.spe-container{
+    width: 85%;
+    margin: 0px;
+}
+
 .centeredcont{
     /* Center vertically and horizontally */
     position: absolute;
