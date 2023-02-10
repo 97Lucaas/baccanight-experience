@@ -6,7 +6,7 @@ function Clicked(){
 
     console.log(input.value);
 
-    if(input.value == "8888"){
+    if(input.value == "2753" || input.value == "DEV"){
         window.location.replace("../../pages/gifs/gif1.html");
     }else{
         $('#bad').modal('show');
