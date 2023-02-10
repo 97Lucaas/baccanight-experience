@@ -140,6 +140,21 @@ p{
     transition: 0.3s;
 }
 
+.button-help{
+    padding: 10px 15px 5px 15px;
+    background-color: #fff;
+    border: 2px #4A4E69 solid;
+    border-radius: 50px;
+    color: #4A4E69;
+    font-family: "Nexa";
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
 .button-list{
     display: flex;
     flex-direction: column;
@@ -428,6 +443,21 @@ a:hover, a:focus {
 .wave-section.wave-in .button{
     background-color: #E2D4B7;
     color:#22223B;
+}
+
+.wave-section.wave-in .button-help{
+    padding: 10px 15px 5px 15px;
+    background-color: #22223B;
+    border: 2px #E2D4B7 solid;
+    border-radius: 50px;
+    color: #E2D4B7;
+    font-family: "Nexa";
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s;
 }
 
 .first-section{
