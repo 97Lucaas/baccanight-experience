@@ -535,3 +535,7 @@ a:hover, a:focus {
 .removed{
     display: none;
 }
+
+.modal-body p + p{
+    margin-top: 15px;
+}
