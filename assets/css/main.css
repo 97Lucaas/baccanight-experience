@@ -284,6 +284,11 @@ p{
     background-color: #22223B !important;
 }
 
+.block-cont + .block-cont{
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px #4A4E69 solid;
+}
 
 
 /* Bootsrap MODIFY */
@@ -330,7 +335,6 @@ p{
     margin-bottom: 50px;
     font-family: "Nexa";
 }
-
 
 .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
     border-top: 0px solid #dddddd;
@@ -508,4 +512,12 @@ a:hover, a:focus {
 
 .nar{
     opacity: 0.8;
+}
+
+.panel-group.accord-bibli {
+    margin: 0px;
+}
+
+.h1-bibli{
+    margin-bottom: 50px;
 }

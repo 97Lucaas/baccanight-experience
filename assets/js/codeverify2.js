@@ -18,3 +18,9 @@ function ZoomImg(){
     $('#zoom-img').modal('show');
 
 }
+
+function Help(){
+
+    $('#help').modal('show');
+
+}
