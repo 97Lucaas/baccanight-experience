@@ -13,6 +13,7 @@ addEventListener('fullscreenchange', () => {
 
     if (!document.fullscreenElement) {
         elem.classList.add("removed");
+        elem.currentTime = 0;
         elem.pause();
     }
 
