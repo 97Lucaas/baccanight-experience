@@ -4,7 +4,7 @@ elem.pause();
 function Video(){
     if (elem.requestFullscreen) {
     elem.classList.remove("removed");
-    elem.requestFullscreen();
+    //elem.requestFullscreen();
     elem.play();
     }
 }
