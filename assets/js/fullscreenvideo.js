@@ -1,11 +1,12 @@
 var elem = document.getElementById("vid");
 elem.pause();
 
-function Video(){
-    if (elem.requestFullscreen) {
+function video(){
     elem.classList.remove("removed");
-    //elem.requestFullscreen();
     elem.play();
+
+    if (elem.requestFullscreen) {
+    elem.requestFullscreen();
     }
 }
 
